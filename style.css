@@ -14,32 +14,43 @@ nav{
     display: flex;
     width: 100%;
     justify-content: space-between;
+    /* background-color: rgb(147, 58, 58); */
 }
 
 nav h1{
-    padding: .0 1rem;
+    position: relative;
+    margin: .5rem 3rem;
+    padding: .5rem 1rem;
     color: white;
     font-size: 4rem;
-    background-color: green;
 }
 
 nav ul{
+    position: relative;
     display: flex;
     list-style-type: none;
-    padding: .5rem;
+    padding: 2rem;
+    margin: 1rem 2rem;
+    /* background-color: rgb(17, 17, 16); */
 }
 
 nav ul li{
-    padding: 1rem;
+    padding: 0 3rem;
     text-decoration: 2px solid white underline;
 }
 
 nav li a{
     text-decoration: none;
     color: white;
+    padding: .5rem;
 }
 
-
+.profile-tab{
+    margin: 1rem;
+    padding: 2rem;
+    background-color: brown;
+    color: white;
+}
 
 .btn{
     background-color: rgb(222, 132, 132);
