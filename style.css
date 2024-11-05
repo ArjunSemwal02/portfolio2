@@ -14,7 +14,7 @@ nav{
     display: flex;
     width: 100%;
     justify-content: space-between;
-    /* background-color: rgb(147, 58, 58); */
+    background-color: rgb(147, 58, 58);
 }
 
 nav h1{
@@ -47,10 +47,18 @@ nav li a{
 
 .profile-tab{
     margin: 1rem;
-    padding: 2rem;
-    background-color: brown;
+    padding: 0 2rem;
+    /* background-color: brown; */
     color: white;
 }
+
+#myPhoto img{
+    width: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    height: 300px;
+}
+
 
 .btn{
     background-color: rgb(222, 132, 132);
@@ -60,6 +68,8 @@ nav li a{
     border-radius: 10px;
     width: 5rem;
 }
+
+
 
 .page{
     /* position: a; */
